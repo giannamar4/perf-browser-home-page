@@ -1,0 +1,53 @@
+* {
+  font-family: "Aclonica", sans-serif;
+  // background-color: rgb(250, 215, 220);
+}
+body {
+  background-color: #f4f3f6;
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23adaab2' fill-opacity='0.52'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+#mainHead {
+  text-align: center;
+  font-size: 4.4em;
+  color: black;
+  text-shadow: 4px 2px rgb(250, 215, 220);
+}
+// #mainHead:hover {
+//   transform: translateY(-6px);
+// }
+
+.flex1 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  column-gap: 1em;
+}
+.flex2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  column-gap: 1em;
+  margin-top: 2.2em;
+}
+.icon {
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.icon:hover {
+  transform: translateY(6px);
+  transition: 50ms;
+}
+.one:hover {
+  color: lightblue;
+  text-shadow: 4px 2px black;
+}
+.two:hover {
+  color: rgb(166, 212, 189);
+  text-shadow: 4px 2px black;
+}
+.three:hover {
+  color: rgb(224, 205, 224);
+  text-shadow: 4px 2px black;
+}
